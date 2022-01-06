@@ -1,0 +1,68 @@
+
+
+
+ @media screen and (min-width: 375px){
+    Body{background-color: #3a4764;
+ }
+ .container{
+     max-width: 400px;
+     /* margin: 10vh auto 0 auto; */
+ }
+ #display{
+     text-align: right;
+     height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    margin-bottom: 1px; 
+    margin-top: -10px;
+    width: 97%;
+    background-color: hsl(224, 36%, 15%);
+    color: #ffff;
+ }
+ .buttons{
+     display: grid;
+     border-bottom: 1px solid #999;
+     border: 1px solid #999;
+     grid-template-columns: auto auto auto auto;
+     grid-column-gap: 10px;
+     grid-row-gap: 20px;
+    padding: 15px;
+    background-color: hsl(224, 36%, 15%);
+    margin-top: 5px;
+ }
+ .buttons > div{
+     border-top: 1px solid #999;
+     border-right: 1px solid #999;
+ }
+ .buttonsb{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% 53%;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+   padding: 5px;
+    margin-top: 1px;
+    background-color: hsl(224, 36%, 15%);
+}
+.buttonsb > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    } 
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    background-color: hsl(30, 25%, 89%);
+}
+.buttond{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    background-color: hsl(30, 25%, 89%);
+}       
+}
